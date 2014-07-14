@@ -11,6 +11,8 @@
 		65E8978B17AD93790037C5BB /* AGSCIFilteredTiledMapServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E8978A17AD93790037C5BB /* AGSCIFilteredTiledMapServiceLayer.m */; };
 		D95F921416F2147F0007D7F5 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F921316F2147F0007D7F5 /* libc++.dylib */; };
 		D95F921616F214870007D7F5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F921516F214870007D7F5 /* OpenGLES.framework */; };
+		D977B2881971B158004E179E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D977B2861971B158004E179E /* icon.png */; };
+		D977B2891971B158004E179E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D977B2871971B158004E179E /* icon@2x.png */; };
 		E169807B16387B6C00A1F2E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E169807A16387B6C00A1F2E5 /* UIKit.framework */; };
 		E169807D16387B6C00A1F2E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E169807C16387B6C00A1F2E5 /* Foundation.framework */; };
 		E169807F16387B6C00A1F2E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E169807E16387B6C00A1F2E5 /* CoreGraphics.framework */; };
@@ -39,6 +41,8 @@
 		65E8978A17AD93790037C5BB /* AGSCIFilteredTiledMapServiceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGSCIFilteredTiledMapServiceLayer.m; path = ../../CIFilterLayer/AGSCIFilteredTiledMapServiceLayer.m; sourceTree = "<group>"; };
 		D95F921316F2147F0007D7F5 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		D95F921516F214870007D7F5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D977B2861971B158004E179E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D977B2871971B158004E179E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		E169807616387B6C00A1F2E5 /* coreimage-tiled-layer-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coreimage-tiled-layer-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E169807A16387B6C00A1F2E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E169807C16387B6C00A1F2E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,6 +158,8 @@
 		E169808116387B6C00A1F2E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D977B2861971B158004E179E /* icon.png */,
+				D977B2871971B158004E179E /* icon@2x.png */,
 				E16980B216387C5500A1F2E5 /* ArcGIS.bundle */,
 				E169808216387B6C00A1F2E5 /* coreimage-tiled-layer-ios-Info.plist */,
 				E169808316387B6C00A1F2E5 /* InfoPlist.strings */,
@@ -227,9 +233,11 @@
 				E169808D16387B6C00A1F2E5 /* Default.png in Resources */,
 				E169808F16387B6C00A1F2E5 /* Default@2x.png in Resources */,
 				E169809116387B6C00A1F2E5 /* Default-568h@2x.png in Resources */,
+				D977B2881971B158004E179E /* icon.png in Resources */,
 				E169809416387B6C00A1F2E5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E169809716387B6C00A1F2E5 /* MainStoryboard_iPad.storyboard in Resources */,
 				E16980B316387C5500A1F2E5 /* ArcGIS.bundle in Resources */,
+				D977B2891971B158004E179E /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
